@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+  pre {
+    font-size: 7em;
+  }
+  .marks .land {
+    fill: #ececec;
+  }
+  .marks .sphere {
+    fill:rgb(49, 49, 49) ;
+    opacity:0.9
+  }
+  .marks .interiors {
+    fill: none;
+    stroke: #d9dfe0;
+    stroke-width: 0.5;
+  }
+  .marks .graticules {
+    fill: none;
+    stroke: #ececec;
+    stroke-width: 0.5;
+    stroke-opacity:0.3
+  }
+  .marks .mountains path {
+    stroke: black;
+    stroke-width: 0.25;
+  }
+  .marks .mountains path:hover {
+    stroke-width: 1;
+  }
+  circle {
+    fill: #137B80;
+    opacity: 0.3;
+  }
+  

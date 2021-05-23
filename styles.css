@@ -1,6 +1,10 @@
 body {
-    margin: 0;
+    margin: 30;
     overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+h1 {
+    font-size: 25px;
     font-family: 'Poppins', sans-serif;
   }
   pre {
@@ -10,8 +14,10 @@ body {
     fill: #ececec;
   }
   .marks .sphere {
-    fill:rgb(49, 49, 49) ;
-    opacity:0.9
+    fill:rgb(22, 22, 22) ;
+    opacity:0.9;
+    align-items: center;
+
   }
   .marks .interiors {
     fill: none;
